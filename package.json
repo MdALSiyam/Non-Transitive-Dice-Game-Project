@@ -1,0 +1,17 @@
+{
+  "name": "dice-game",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": ["dice", "game", "non-transitive", "fairness", "cli"],
+  "author": "Md. Abdul Latif Siyam",
+  "license": "ISC",
+  "description": "A generalized non-transitive dice game with provable fairness.",
+  "dependencies": {
+    "cli-table3": "^0.6.5",
+    "readline-sync": "^1.4.10",
+    "yargs": "^17.7.2"
+  }
+}
